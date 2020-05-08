@@ -7,3 +7,6 @@ ai-camp-keys.properties
 # Ignore local working folders
 /darknet-local/*
 /python_scripts/__pycache__/*
+/mysite/__pycache__/*
+/mysite/yolo/my-yolov3-tiny-obj_final.weights
+
