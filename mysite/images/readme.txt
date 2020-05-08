@@ -1,0 +1,1 @@
+images directory is needed for processing of the uploaded image for yolo predictions.
