@@ -5,7 +5,6 @@ import requests
 import configparser
 import urllib.request
 import numpy as np
-from PIL import Image
 from exceptions import *
 import cv2
 

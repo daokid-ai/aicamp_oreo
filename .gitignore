@@ -6,3 +6,4 @@ ai-camp-keys.properties
 
 # Ignore local working folders
 /darknet-local/*
+/python_scripts/__pycache__/*

@@ -9,7 +9,7 @@ from exceptions import *
 LABEL_DATA_PREP_sec ='LABEL_DATA_PREP'
 
 try:
-    path_conf_prop = '/Users/daokid/PycharmProjects/AICamp-Pilot/venv/py_files/ai-camp-config.properties'
+    path_conf_prop = 'ai-camp-config.properties'
     config_dict = get_config_section(LABEL_DATA_PREP_sec, path_conf_prop)
     src_img_dir = config_dict[LABEL_DATA_PREP_sec]['src_img_dir']
     dest_img_dir = config_dict[LABEL_DATA_PREP_sec]['dest_img_dir']
@@ -57,7 +57,7 @@ except PathDoesNotExistError as pdnee:
     print("{}".format(pdnee))
 except EmptyDirectoryError as ede:
     print("{}".format(ede))
-except UnHandledException as ue:
+except UnhandledException as ue:
     print("Some other error occurred.{}".format(ue))
     traceback.print_exc()
 except Exception as e:
