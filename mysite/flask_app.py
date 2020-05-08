@@ -99,7 +99,7 @@ def uploaded_file(filename):
         format_confidences = and_syntax(format_confidences)
         # labels: sorting and capitalizing, putting into function
         labels = set(labels)
-        labels = [emotion.capitalize() for emotion in labels]
+        labels = [oreo.capitalize() for oreo in labels]
         labels = and_syntax(labels)
         
         # return template with data
@@ -108,7 +108,7 @@ def uploaded_file(filename):
             filename=new_filename) 
     else:
         found = False
-        return render_template('results.html', labels='No Emotion', old_filename = filename, filename=filename)
+        return render_template('results.html', labels='no Oreo', old_filename = filename, filename=filename)
 
 @app.route('/files/<path:filename>')
 def files(filename):
