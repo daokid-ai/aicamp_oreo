@@ -2,6 +2,9 @@
 # Ignore Mac System Files
 .DS_store
 
+# Ignore visual studio code file
+aicamp_oreo.code-workspace
+
 # Ignore files related to API keys
 ai-camp-keys.properties
 
