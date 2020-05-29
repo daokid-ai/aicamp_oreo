@@ -1,8 +1,14 @@
+# created by virtualenv automatically
 # Ignore Mac System Files
 .DS_store
 
 # Ignore files related to API keys
 ai-camp-keys.properties
+
+# Ignore Virtualenv folders & files
+/bin/*
+/lib/*
+pyvenv.cfg
 
 # Ignore local working folders
 /darknet-local/*
