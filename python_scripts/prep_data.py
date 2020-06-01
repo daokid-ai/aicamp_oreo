@@ -18,7 +18,7 @@ LABELBOX_KEY = 'LABELBOX_KEY'  # Section Header from ai-camp-keys.properties fil
 
 # Set training parameters from read ai-camp-config.properties
 try:
-    path_conf_prop = '/Users/daokid/PycharmProjects/AICamp-Pilot/venv/py_files/ai-camp-config.properties'
+    path_conf_prop = 'ai-camp-config.properties'
     config_dict = get_config_section(TRAINING_DATA_PREP_SEC, path_conf_prop)
 
     # Set path for API Key File
