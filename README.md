@@ -1,5 +1,5 @@
 # Project aicamp_oreo
-Project for ML classification object detection for a dog named Oreo in images.
+Project for Computer Vision object detection for a dog named Oreo in images.
 
 ## Subheader
 will try to manage with branch versus masterr
